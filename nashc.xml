@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <!-- Remote -->
-   <remote name="nashc-dev" fetch="https://github.com/nashc-dev" />
-   <remote name="killerpac" fetch="ssh://git@github.com/Killerpac" />
-   <remote name="elixir" fetch="ssh://git@github.com/ProjectElixir-Devices" />
+   <remote name="nashc-dev" fetch="http://github.com/nashc-dev" />
+   <remote name="killerpac" fetch="http://github.com/Killerpac" />
+   <remote name="elixir" fetch="http://github.com/ProjectElixir-Devices" />
 
    <!-- Device Trees -->
    <project path="device/realme/nashc" name="android_device_realme_nashc" revision="lineage-20" remote="killerpac" />
