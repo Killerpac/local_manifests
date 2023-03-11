@@ -2,7 +2,7 @@
 <manifest>
    <!-- Remote -->
    <remote name="nashc-dev" fetch="https://github.com/nashc-dev" />
-   <remote name="killerpac" getch="https://github.com/Killerpac" />
+   <remote name="killerpac" fetch="https://github.com/Killerpac" />
 
    <!-- Device Trees -->
    <project path="device/realme/nashc" name="android_device_realme_nashc" revision="lineage-20" remote="killerpac" />
