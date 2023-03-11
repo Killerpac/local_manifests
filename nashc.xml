@@ -2,10 +2,11 @@
 <manifest>
    <!-- Remote -->
    <remote name="nashc-dev" fetch="https://github.com/nashc-dev" />
-   <remote name="github" fetch="https://github.com" />
+   <remote name="killerpac" fetch="ssh://git@github.com/Killerpac" />
+   <remote name="elixir" fetch="ssh://git@github.com/ProjectElixir-Devices" />
 
    <!-- Device Trees -->
-   <project path="device/realme/nashc" name="Killerpac/android_device_realme_nashc" revision="lineage-20" remote="github" />
+   <project path="device/realme/nashc" name="android_device_realme_nashc" revision="lineage-20" remote="killerpac" />
    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="nashc-dev" />
 
    <!-- Kernel Source -->
@@ -15,6 +16,6 @@
    <project path="vendor/realme/nashc" name="android_vendor_realme_nashc" revision="lineage-20" remote="nashc-dev" />
 
    <!-- Hardware Components -->
-   <project path="hardware/oplus" name="ProjectElixir-Device/android_hardware_oplus" revision="elixir" remote="github" />
+   <project path="hardware/oplus" name="android_hardware_oplus" revision="elixir" remote="elixir" />
    <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20-rebase" remote="nashc-dev" />
 </manifest>
