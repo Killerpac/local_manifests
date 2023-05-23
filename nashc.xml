@@ -6,7 +6,7 @@
   <remote name="killerpac" fetch="https://github.com/Killerpac" />
 
   <!-- Device Trees -->
-  <project path="device/realme/nashc" name="android_device_realme_nashc" revision="voltage" remote="killerpac" />
+  <project path="device/realme/nashc" name="android_device_realme_nashc" revision="spark" remote="killerpac" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="github-lineage" />
 
   <!-- Kernel Source -->
